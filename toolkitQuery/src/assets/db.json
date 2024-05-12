@@ -1,0 +1,31 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "john_doe",
+        "email": "john@example.com",
+        "age": 30
+      },
+      {
+        "id": 2,
+        "username": "jane_smith",
+        "email": "jane@example.com",
+        "age": 25
+      }
+    ],
+    "posts": [
+      {
+        "id": 1,
+        "title": "Hello World!",
+        "content": "This is my first post.",
+        "authorId": 1
+      },
+      {
+        "id": 2,
+        "title": "Introduction to JSON",
+        "content": "JSON stands for JavaScript Object Notation.",
+        "authorId": 2
+      }
+    ]
+  }
+  
