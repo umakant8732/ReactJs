@@ -10,13 +10,10 @@ function App() {
 
   const weatherStates = useWeatherContext();
   
-
-
   useEffect(() => {
     weatherStates.getCurrentlocationWeather();
   },[]);
 
- 
   return (
     <div className="app">
       <h3>This is Weather App</h3>
